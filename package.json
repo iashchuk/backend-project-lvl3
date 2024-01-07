@@ -1,0 +1,28 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Page loader utility",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "page-loader": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "29.7.0",
+    "eslint": "8.56.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jest": "27.6.1",
+    "jest": "29.7.0",
+    "nock": "13.4.0"
+  },
+  "dependencies": {
+    "axios": "1.6.5",
+    "commander": "11.1.0"
+  }
+}
